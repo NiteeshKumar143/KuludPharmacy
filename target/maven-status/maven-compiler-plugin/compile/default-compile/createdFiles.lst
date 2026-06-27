@@ -1,0 +1,16 @@
+Payloads/AddAddressRequest.class
+Payloads/VerifyOtpRequest.class
+Apis/SubCategoriesApi.class
+Auth/TokenManager.class
+Apis/AuthAPI.class
+Utils/HeaderBuilder.class
+Apis/CategoriesApi.class
+Utils/AuthUtil.class
+EndPoints/Routs.class
+Config/ConfigManager.class
+Apis/UserApi.class
+Builder/ResponseSpecBuilderUtil.class
+Builder/RequestSpecBuilderUtil.class
+EndPoints/Routs$apiendpoints.class
+Apis/UserAddressApi.class
+Payloads/SendOtpRequest.class

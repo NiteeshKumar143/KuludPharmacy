@@ -1,0 +1,7 @@
+Tests/AddUserAddressTest.class
+Base/BaseTest.class
+Tests/DeleteUserAddressTest.class
+Tests/GetSubCategoriesListTest.class
+Tests/GetUserAddressTest.class
+Tests/GetUserProfileTest.class
+Tests/GetCategoriesListTest.class

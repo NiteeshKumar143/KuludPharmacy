@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-27T08:46:33 IST" name="API Automation Suite" finished-at="2026-06-27T08:46:52 IST" duration-ms="19352">
+    <groups>
+    </groups>
+    <test started-at="2026-06-27T08:46:33 IST" name="User APIs" finished-at="2026-06-27T08:46:43 IST" duration-ms="10680">
+      <class name="Tests.GetUserProfileTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.GetUserProfileTest@1c93084c]" started-at="2026-06-27T08:46:33 IST" name="setup" finished-at="2026-06-27T08:46:37 IST" duration-ms="4017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUserProfileVerifySuccessfulResponse()[pri:1, instance:Tests.GetUserProfileTest@1c93084c]" started-at="2026-06-27T08:46:37 IST" name="getUserProfileVerifySuccessfulResponse" finished-at="2026-06-27T08:46:38 IST" duration-ms="1398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserProfileVerifySuccessfulResponse -->
+        <test-method signature="getUserProfileValidateResponseSchema()[pri:2, instance:Tests.GetUserProfileTest@1c93084c]" started-at="2026-06-27T08:46:38 IST" name="getUserProfileValidateResponseSchema" finished-at="2026-06-27T08:46:40 IST" duration-ms="1595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserProfileValidateResponseSchema -->
+        <test-method signature="getUserProfileValidateEmailFormat()[pri:3, instance:Tests.GetUserProfileTest@1c93084c]" started-at="2026-06-27T08:46:40 IST" name="getUserProfileValidateEmailFormat" finished-at="2026-06-27T08:46:41 IST" duration-ms="1143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserProfileValidateEmailFormat -->
+        <test-method signature="getUserProfileValidatePhoneNumberFormat()[pri:4, instance:Tests.GetUserProfileTest@1c93084c]" started-at="2026-06-27T08:46:41 IST" name="getUserProfileValidatePhoneNumberFormat" finished-at="2026-06-27T08:46:42 IST" duration-ms="1297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserProfileValidatePhoneNumberFormat -->
+        <test-method signature="getUserProfileValidateEnumValues()[pri:5, instance:Tests.GetUserProfileTest@1c93084c]" started-at="2026-06-27T08:46:42 IST" name="getUserProfileValidateEnumValues" finished-at="2026-06-27T08:46:43 IST" duration-ms="1207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserProfileValidateEnumValues -->
+      </class> <!-- Tests.GetUserProfileTest -->
+    </test> <!-- User APIs -->
+    <test started-at="2026-06-27T08:46:44 IST" name="Post Address APIs" finished-at="2026-06-27T08:46:45 IST" duration-ms="1350">
+      <class name="Tests.AddUserAddressTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.AddUserAddressTest@9353778]" started-at="2026-06-27T08:46:44 IST" name="setup" finished-at="2026-06-27T08:46:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AddAddressTest()[pri:6, instance:Tests.AddUserAddressTest@9353778]" started-at="2026-06-27T08:46:44 IST" name="AddAddressTest" finished-at="2026-06-27T08:46:45 IST" duration-ms="1348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAddressTest -->
+      </class> <!-- Tests.AddUserAddressTest -->
+    </test> <!-- Post Address APIs -->
+    <test started-at="2026-06-27T08:46:45 IST" name="Get Address APIs" finished-at="2026-06-27T08:46:46 IST" duration-ms="1177">
+      <class name="Tests.GetUserAddressTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.GetUserAddressTest@21de60b4]" started-at="2026-06-27T08:46:45 IST" name="setup" finished-at="2026-06-27T08:46:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUserAddressList()[pri:0, instance:Tests.GetUserAddressTest@21de60b4]" started-at="2026-06-27T08:46:45 IST" name="getUserAddressList" finished-at="2026-06-27T08:46:46 IST" duration-ms="1174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserAddressList -->
+      </class> <!-- Tests.GetUserAddressTest -->
+    </test> <!-- Get Address APIs -->
+    <test started-at="2026-06-27T08:46:46 IST" name="Delete Address APIs" finished-at="2026-06-27T08:46:49 IST" duration-ms="2460">
+      <class name="Tests.DeleteUserAddressTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.DeleteUserAddressTest@5c30a9b0]" started-at="2026-06-27T08:46:46 IST" name="setup" finished-at="2026-06-27T08:46:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="DeleteUserAddressById()[pri:7, instance:Tests.DeleteUserAddressTest@5c30a9b0]" started-at="2026-06-27T08:46:46 IST" name="DeleteUserAddressById" finished-at="2026-06-27T08:46:48 IST" duration-ms="2458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteUserAddressById -->
+      </class> <!-- Tests.DeleteUserAddressTest -->
+    </test> <!-- Delete Address APIs -->
+    <test started-at="2026-06-27T08:46:49 IST" name="Get Categories List APIs" finished-at="2026-06-27T08:46:49 IST" duration-ms="0">
+    </test> <!-- Get Categories List APIs -->
+    <test started-at="2026-06-27T08:46:49 IST" name="Get SubCategories List APIs" finished-at="2026-06-27T08:46:52 IST" duration-ms="3649">
+      <class name="Tests.GetSubCategoriesListTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.GetSubCategoriesListTest@50b472aa]" started-at="2026-06-27T08:46:49 IST" name="setup" finished-at="2026-06-27T08:46:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="GetSubCategoriesList()[pri:9, instance:Tests.GetSubCategoriesListTest@50b472aa]" started-at="2026-06-27T08:46:49 IST" name="GetSubCategoriesList" finished-at="2026-06-27T08:46:52 IST" duration-ms="3647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetSubCategoriesList -->
+      </class> <!-- Tests.GetSubCategoriesListTest -->
+    </test> <!-- Get SubCategories List APIs -->
+  </suite> <!-- API Automation Suite -->
+</testng-results>

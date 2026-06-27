@@ -1,0 +1,48 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="API Automation Suite">
+
+
+            <test name="User APIs">
+                <classes>
+                    <class name="Tests.GetUserProfileTest"/>
+                </classes>
+            </test>
+
+            <test name="Post Address APIs">
+                <classes>
+                    <class name="Tests.AddUserAddressTest"/>
+                </classes>
+            </test>
+
+            <test name="Get Address APIs">
+                <classes>
+                    <class name="Tests.GetUserAddressTest"/>
+                </classes>
+            </test>
+           <test name="Delete Address APIs">
+                <classes>
+                    <class name="Tests.DeleteUserAddressTest"/>
+                </classes>
+            </test>
+
+
+            <test name="Get Categories List APIs">
+                <classes>
+                    <class name="Tests.GetCategoriesListTest"/>
+                </classes>
+            </test>
+
+
+            <test name="Get SubCategories List APIs">
+                <classes>
+                    <class name="Tests.GetSubCategoriesListTest"/>
+                </classes>
+            </test>
+
+
+
+            
+
+
+</suite>
