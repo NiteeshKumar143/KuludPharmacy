@@ -1,5 +1,6 @@
 Tests/AddUserAddressTest.class
 Base/BaseTest.class
+Tests/GetSpecialOfferListTest.class
 Tests/DeleteUserAddressTest.class
 Tests/GetSubCategoriesListTest.class
 Tests/GetUserAddressTest.class

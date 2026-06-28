@@ -1,6 +1,7 @@
 /home/user/Documents/KuludPharmacy/kuludpharmacy/src/main/java/Apis/SubCategoriesApi.java
 /home/user/Documents/KuludPharmacy/kuludpharmacy/src/main/java/Builder/RequestSpecBuilderUtil.java
 /home/user/Documents/KuludPharmacy/kuludpharmacy/src/main/java/Payloads/VerifyOtpRequest.java
+/home/user/Documents/KuludPharmacy/kuludpharmacy/src/main/java/Apis/SpecialOfferApi.java
 /home/user/Documents/KuludPharmacy/kuludpharmacy/src/main/java/Config/ConfigManager.java
 /home/user/Documents/KuludPharmacy/kuludpharmacy/src/main/java/Payloads/AddAddressRequest.java
 /home/user/Documents/KuludPharmacy/kuludpharmacy/src/main/java/Apis/UserApi.java

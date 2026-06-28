@@ -6,6 +6,7 @@ Apis/AuthAPI.class
 Utils/HeaderBuilder.class
 Apis/CategoriesApi.class
 Utils/AuthUtil.class
+Apis/SpecialOfferApi.class
 EndPoints/Routs.class
 Config/ConfigManager.class
 Apis/UserApi.class

@@ -12,8 +12,6 @@ public class HeaderBuilder
         Map<String, String> headers = new HashMap<>();
         headers.put("Content-Type", "application/json");
         headers.put("Accept", "application/json");
-        
-
         headers.put("deviceId", "1");
         headers.put("deviceType", "Android");
         headers.put("timezone", "in");
