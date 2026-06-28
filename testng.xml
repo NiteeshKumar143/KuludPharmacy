@@ -40,12 +40,13 @@
                 </classes>
             </test>
 
+
             <test name="Get Special offers List APIs">
 
             <classes>
-                        <class name="tests.LoginTest"/>
-                        <class name="tests.AddAddressTest"/>
-            </classes>
+                    <class name="Tests.GetSpecialOffersListTest"/>
+                </classes>
+          </test>
 
 
 
