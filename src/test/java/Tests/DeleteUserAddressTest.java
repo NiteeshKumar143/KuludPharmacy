@@ -9,7 +9,7 @@ import io.restassured.response.Response;
 public class DeleteUserAddressTest extends BaseTest
 {
 
-    @Test(priority = 7)
+    @Test(priority = 8)
     public void DeleteUserAddressById()
     { 
 

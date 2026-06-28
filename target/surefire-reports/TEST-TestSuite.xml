@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="20.037" tests="14" errors="0" skipped="9" failures="5">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="28.018" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-21-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/user/Documents/KuludPharmacy/kuludpharmacy/target/surefire/surefirebooter-20260627123746094_3.jar /home/user/Documents/KuludPharmacy/kuludpharmacy/target/surefire 2026-06-27T12-37-45_900-jvmRun1 surefire-20260627123746094_1tmp surefire_0-20260627123746094_2tmp"/>
+    <property name="sun.java.command" value="/home/user/Documents/KuludPharmacy/kuludpharmacy/target/surefire/surefirebooter-20260628090331374_3.jar /home/user/Documents/KuludPharmacy/kuludpharmacy/target/surefire 2026-06-28T09-03-31_262-jvmRun1 surefire-20260628090331374_1tmp surefire_0-20260628090331374_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/user/Documents/KuludPharmacy/kuludpharmacy/target/test-classes:/home/user/Documents/KuludPharmacy/kuludpharmacy/target/classes:/home/user/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/home/user/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/home/user/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/home/user/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/user/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/home/user/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/user/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/home/user/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/home/user/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/user/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/home/user/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/home/user/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/home/user/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/home/user/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/home/user/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/home/user/.m2/repository/io/rest-assured/json-schema-validator/5.4.0/json-schema-validator-5.4.0.jar:/home/user/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/home/user/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/home/user/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/home/user/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/home/user/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/home/user/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/home/user/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/home/user/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/home/user/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/home/user/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/home/user/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/home/user/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/user/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/user/.m2/repository/com/google/guava/guava/32.0.1-jre/guava-32.0.1-jre.jar:/home/user/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/user/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/user/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/home/user/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/home/user/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/home/user/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/home/user/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/user/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/home/user/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/home/user/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.16.1/jackson-databind-2.16.1.jar:/home/user/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.16.1/jackson-annotations-2.16.1.jar:/home/user/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.16.1/jackson-core-2.16.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -29,7 +29,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/user/Documents/KuludPharmacy/kuludpharmacy/target/surefire/surefirebooter-20260627123746094_3.jar"/>
+    <property name="surefire.real.class.path" value="/home/user/Documents/KuludPharmacy/kuludpharmacy/target/surefire/surefirebooter-20260628090331374_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.11+10-1-24.04.2-Ubuntu"/>
     <property name="user.name" value="user"/>
@@ -55,215 +55,52 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="setup" classname="Tests.GetUserProfileTest" time="6.068">
-    <failure message="❌ Token is null. Login failed!" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: ❌ Token is null. Login failed!
-	at Utils.AuthUtil.login(AuthUtil.java:30)
-	at Base.BaseTest.setup(BaseTest.java:27)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
+  <testcase name="getUserProfileVerifySuccessfulResponse" classname="Tests.GetUserProfileTest" time="2.044">
     <system-out><![CDATA[🔄 Token expired. Regenerating...
+Test Pass-: Get Success response with valid Headers
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="getUserProfileVerifySuccessfulResponse" classname="Tests.GetUserProfileTest" time="0.0">
-    <skipped message="❌ Token is null. Login failed!"/>
-  </testcase>
-  <testcase name="getUserProfileValidateResponseSchema" classname="Tests.GetUserProfileTest" time="0.0">
-    <skipped message="❌ Token is null. Login failed!"/>
-  </testcase>
-  <testcase name="getUserProfileValidateEmailFormat" classname="Tests.GetUserProfileTest" time="0.0">
-    <skipped message="❌ Token is null. Login failed!"/>
-  </testcase>
-  <testcase name="getUserProfileValidatePhoneNumberFormat" classname="Tests.GetUserProfileTest" time="0.0">
-    <skipped message="❌ Token is null. Login failed!"/>
-  </testcase>
-  <testcase name="getUserProfileValidateEnumValues" classname="Tests.GetUserProfileTest" time="0.0">
-    <skipped message="❌ Token is null. Login failed!"/>
-  </testcase>
-  <testcase name="setup" classname="Tests.AddUserAddressTest" time="3.545">
-    <failure message="❌ Token is null. Login failed!" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: ❌ Token is null. Login failed!
-	at Utils.AuthUtil.login(AuthUtil.java:30)
-	at Base.BaseTest.setup(BaseTest.java:27)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-    <system-out><![CDATA[🔄 Token expired. Regenerating...
+  <testcase name="getUserProfileValidateResponseSchema" classname="Tests.GetUserProfileTest" time="1.97">
+    <system-out><![CDATA[Test Pass-: Response schema is Correct
 ]]></system-out>
   </testcase>
-  <testcase name="AddAddressTest" classname="Tests.AddUserAddressTest" time="0.0">
-    <skipped message="❌ Token is null. Login failed!"/>
-  </testcase>
-  <testcase name="setup" classname="Tests.GetUserAddressTest" time="3.804">
-    <failure message="❌ Token is null. Login failed!" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: ❌ Token is null. Login failed!
-	at Utils.AuthUtil.login(AuthUtil.java:30)
-	at Base.BaseTest.setup(BaseTest.java:27)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-    <system-out><![CDATA[🔄 Token expired. Regenerating...
+  <testcase name="getUserProfileValidateEmailFormat" classname="Tests.GetUserProfileTest" time="1.411">
+    <system-out><![CDATA[Test Pass-: Email having Correct Format
 ]]></system-out>
   </testcase>
-  <testcase name="getUserAddressList" classname="Tests.GetUserAddressTest" time="0.0">
-    <skipped message="❌ Token is null. Login failed!"/>
-  </testcase>
-  <testcase name="setup" classname="Tests.DeleteUserAddressTest" time="3.261">
-    <failure message="❌ Token is null. Login failed!" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: ❌ Token is null. Login failed!
-	at Utils.AuthUtil.login(AuthUtil.java:30)
-	at Base.BaseTest.setup(BaseTest.java:27)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-    <system-out><![CDATA[🔄 Token expired. Regenerating...
+  <testcase name="getUserProfileValidatePhoneNumberFormat" classname="Tests.GetUserProfileTest" time="1.67">
+    <system-out><![CDATA[Test Pass-: Phone Number is in Correct format and having valid country Code
 ]]></system-out>
   </testcase>
-  <testcase name="DeleteUserAddressById" classname="Tests.DeleteUserAddressTest" time="0.0">
-    <skipped message="❌ Token is null. Login failed!"/>
-  </testcase>
-  <testcase name="setup" classname="Tests.GetSubCategoriesListTest" time="3.224">
-    <failure message="❌ Token is null. Login failed!" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: ❌ Token is null. Login failed!
-	at Utils.AuthUtil.login(AuthUtil.java:30)
-	at Base.BaseTest.setup(BaseTest.java:27)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-    <system-out><![CDATA[🔄 Token expired. Regenerating...
+  <testcase name="getUserProfileValidateEnumValues" classname="Tests.GetUserProfileTest" time="1.412">
+    <system-out><![CDATA[Test Pass-: Enum fields having correct values
 ]]></system-out>
   </testcase>
-  <testcase name="GetSubCategoriesList" classname="Tests.GetSubCategoriesListTest" time="0.0">
-    <skipped message="❌ Token is null. Login failed!"/>
+  <testcase name="AddAddressTest" classname="Tests.AddUserAddressTest" time="1.953">
+    <system-out><![CDATA[Test Pass-: New Address added sucessfully
+]]></system-out>
+  </testcase>
+  <testcase name="getUserAddressList" classname="Tests.GetUserAddressTest" time="1.398">
+    <system-out><![CDATA[Test Pass-: User Address List fetched successfully
+]]></system-out>
+  </testcase>
+  <testcase name="DeleteUserAddressById" classname="Tests.DeleteUserAddressTest" time="3.306">
+    <system-out><![CDATA[Id 572
+Test Pass-: Address 572 deleted sucessfully
+]]></system-out>
+  </testcase>
+  <testcase name="getCategoriesList" classname="Tests.GetCategoriesListTest" time="1.695">
+    <system-out><![CDATA[Test Pass-: Categories List fetched successfully
+]]></system-out>
+  </testcase>
+  <testcase name="GetSubCategoriesList" classname="Tests.GetSubCategoriesListTest" time="4.691">
+    <system-out><![CDATA[Category Name-:  Vitamin & Supplements
+List of Sub categories belongs to-:  Vitamin & Supplements
+Test Pass-: Sub Categories List fetched successfully
+]]></system-out>
   </testcase>
 </testsuite>

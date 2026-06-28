@@ -30,7 +30,7 @@ public class AuthUtil
             throw new RuntimeException("❌ Token is null. Login failed!");
         }
 
-        System.out.println("✅ TOKEN: " + token);
+        //System.out.println("✅ TOKEN: " + token);
 
         // Step 4: Store Token
         TokenManager.setToken(token, 3600);

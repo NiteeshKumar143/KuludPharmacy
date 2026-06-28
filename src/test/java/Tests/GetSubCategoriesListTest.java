@@ -10,7 +10,7 @@ public class GetSubCategoriesListTest extends BaseTest
 {
 
 
-    @Test(priority = 9)
+    @Test(priority = 10)
     public void GetSubCategoriesList()
     { 
 

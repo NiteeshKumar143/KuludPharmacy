@@ -9,14 +9,15 @@ import io.restassured.response.Response;
 
 public class GetCategoriesListTest extends BaseTest 
 {
-    @Test(enabled = false)
+    @Test(priority = 9)
     public void getCategoriesList() 
     { 
                 Response response = CategoriesApi.GetCategoriesList();
                 int statuscode=response.getStatusCode();
         
                 Assert.assertEquals(statuscode,200);
-                response.prettyPrint();
+                System.out.println("Test Pass-: Categories List fetched successfully");
+                //response.prettyPrint();
     }
     
 }
