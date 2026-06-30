@@ -2,112 +2,112 @@
 <testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-30T07:08:20 IST" name="API Automation Suite" finished-at="2026-06-30T07:08:47 IST" duration-ms="27367">
+  <suite started-at="2026-06-30T07:19:02 IST" name="API Automation Suite" finished-at="2026-06-30T07:19:28 IST" duration-ms="25753">
     <groups>
     </groups>
-    <test started-at="2026-06-30T07:08:20 IST" name="User APIs" finished-at="2026-06-30T07:08:31 IST" duration-ms="11344">
+    <test started-at="2026-06-30T07:19:02 IST" name="User APIs" finished-at="2026-06-30T07:19:13 IST" duration-ms="10211">
       <class name="Tests.GetUserProfileTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.GetUserProfileTest@1c93084c]" started-at="2026-06-30T07:08:20 IST" name="setup" finished-at="2026-06-30T07:08:25 IST" duration-ms="4709" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.GetUserProfileTest@1c93084c]" started-at="2026-06-30T07:19:02 IST" name="setup" finished-at="2026-06-30T07:19:06 IST" duration-ms="3715" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getUserProfileVerifySuccessfulResponse()[pri:1, instance:Tests.GetUserProfileTest@1c93084c]" started-at="2026-06-30T07:08:25 IST" name="getUserProfileVerifySuccessfulResponse" finished-at="2026-06-30T07:08:26 IST" duration-ms="1272" status="PASS">
+        <test-method signature="getUserProfileVerifySuccessfulResponse()[pri:1, instance:Tests.GetUserProfileTest@1c93084c]" started-at="2026-06-30T07:19:06 IST" name="getUserProfileVerifySuccessfulResponse" finished-at="2026-06-30T07:19:07 IST" duration-ms="1338" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserProfileVerifySuccessfulResponse -->
-        <test-method signature="getUserProfileValidateResponseSchema()[pri:2, instance:Tests.GetUserProfileTest@1c93084c]" started-at="2026-06-30T07:08:26 IST" name="getUserProfileValidateResponseSchema" finished-at="2026-06-30T07:08:28 IST" duration-ms="1595" status="PASS">
+        <test-method signature="getUserProfileValidateResponseSchema()[pri:2, instance:Tests.GetUserProfileTest@1c93084c]" started-at="2026-06-30T07:19:07 IST" name="getUserProfileValidateResponseSchema" finished-at="2026-06-30T07:19:09 IST" duration-ms="1311" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserProfileValidateResponseSchema -->
-        <test-method signature="getUserProfileValidateEmailFormat()[pri:3, instance:Tests.GetUserProfileTest@1c93084c]" started-at="2026-06-30T07:08:28 IST" name="getUserProfileValidateEmailFormat" finished-at="2026-06-30T07:08:29 IST" duration-ms="1156" status="PASS">
+        <test-method signature="getUserProfileValidateEmailFormat()[pri:3, instance:Tests.GetUserProfileTest@1c93084c]" started-at="2026-06-30T07:19:09 IST" name="getUserProfileValidateEmailFormat" finished-at="2026-06-30T07:19:10 IST" duration-ms="1404" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserProfileValidateEmailFormat -->
-        <test-method signature="getUserProfileValidatePhoneNumberFormat()[pri:4, instance:Tests.GetUserProfileTest@1c93084c]" started-at="2026-06-30T07:08:29 IST" name="getUserProfileValidatePhoneNumberFormat" finished-at="2026-06-30T07:08:30 IST" duration-ms="1362" status="PASS">
+        <test-method signature="getUserProfileValidatePhoneNumberFormat()[pri:4, instance:Tests.GetUserProfileTest@1c93084c]" started-at="2026-06-30T07:19:10 IST" name="getUserProfileValidatePhoneNumberFormat" finished-at="2026-06-30T07:19:11 IST" duration-ms="1291" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserProfileValidatePhoneNumberFormat -->
-        <test-method signature="getUserProfileValidateEnumValues()[pri:5, instance:Tests.GetUserProfileTest@1c93084c]" started-at="2026-06-30T07:08:30 IST" name="getUserProfileValidateEnumValues" finished-at="2026-06-30T07:08:31 IST" duration-ms="1221" status="PASS">
+        <test-method signature="getUserProfileValidateEnumValues()[pri:5, instance:Tests.GetUserProfileTest@1c93084c]" started-at="2026-06-30T07:19:11 IST" name="getUserProfileValidateEnumValues" finished-at="2026-06-30T07:19:13 IST" duration-ms="1134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserProfileValidateEnumValues -->
       </class> <!-- Tests.GetUserProfileTest -->
     </test> <!-- User APIs -->
-    <test started-at="2026-06-30T07:08:31 IST" name="Post Address APIs" finished-at="2026-06-30T07:08:33 IST" duration-ms="1295">
+    <test started-at="2026-06-30T07:19:13 IST" name="Post Address APIs" finished-at="2026-06-30T07:19:14 IST" duration-ms="1298">
       <class name="Tests.AddUserAddressTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.AddUserAddressTest@9353778]" started-at="2026-06-30T07:08:31 IST" name="setup" finished-at="2026-06-30T07:08:31 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.AddUserAddressTest@9353778]" started-at="2026-06-30T07:19:13 IST" name="setup" finished-at="2026-06-30T07:19:13 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="AddAddressTest()[pri:6, instance:Tests.AddUserAddressTest@9353778]" started-at="2026-06-30T07:08:31 IST" name="AddAddressTest" finished-at="2026-06-30T07:08:33 IST" duration-ms="1292" status="PASS">
+        <test-method signature="AddAddressTest()[pri:6, instance:Tests.AddUserAddressTest@9353778]" started-at="2026-06-30T07:19:13 IST" name="AddAddressTest" finished-at="2026-06-30T07:19:14 IST" duration-ms="1296" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddAddressTest -->
       </class> <!-- Tests.AddUserAddressTest -->
     </test> <!-- Post Address APIs -->
-    <test started-at="2026-06-30T07:08:33 IST" name="Get Address APIs" finished-at="2026-06-30T07:08:34 IST" duration-ms="1226">
+    <test started-at="2026-06-30T07:19:14 IST" name="Get Address APIs" finished-at="2026-06-30T07:19:15 IST" duration-ms="1260">
       <class name="Tests.GetUserAddressTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.GetUserAddressTest@21de60b4]" started-at="2026-06-30T07:08:33 IST" name="setup" finished-at="2026-06-30T07:08:33 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.GetUserAddressTest@21de60b4]" started-at="2026-06-30T07:19:14 IST" name="setup" finished-at="2026-06-30T07:19:14 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getUserAddressList()[pri:0, instance:Tests.GetUserAddressTest@21de60b4]" started-at="2026-06-30T07:08:33 IST" name="getUserAddressList" finished-at="2026-06-30T07:08:34 IST" duration-ms="1223" status="PASS">
+        <test-method signature="getUserAddressList()[pri:0, instance:Tests.GetUserAddressTest@21de60b4]" started-at="2026-06-30T07:19:14 IST" name="getUserAddressList" finished-at="2026-06-30T07:19:15 IST" duration-ms="1257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserAddressList -->
       </class> <!-- Tests.GetUserAddressTest -->
     </test> <!-- Get Address APIs -->
-    <test started-at="2026-06-30T07:08:34 IST" name="Delete Address APIs" finished-at="2026-06-30T07:08:37 IST" duration-ms="2657">
+    <test started-at="2026-06-30T07:19:15 IST" name="Delete Address APIs" finished-at="2026-06-30T07:19:18 IST" duration-ms="2384">
       <class name="Tests.DeleteUserAddressTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.DeleteUserAddressTest@5c30a9b0]" started-at="2026-06-30T07:08:34 IST" name="setup" finished-at="2026-06-30T07:08:34 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.DeleteUserAddressTest@5c30a9b0]" started-at="2026-06-30T07:19:15 IST" name="setup" finished-at="2026-06-30T07:19:15 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="DeleteUserAddressById()[pri:8, instance:Tests.DeleteUserAddressTest@5c30a9b0]" started-at="2026-06-30T07:08:34 IST" name="DeleteUserAddressById" finished-at="2026-06-30T07:08:37 IST" duration-ms="2655" status="PASS">
+        <test-method signature="DeleteUserAddressById()[pri:8, instance:Tests.DeleteUserAddressTest@5c30a9b0]" started-at="2026-06-30T07:19:15 IST" name="DeleteUserAddressById" finished-at="2026-06-30T07:19:18 IST" duration-ms="2382" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DeleteUserAddressById -->
       </class> <!-- Tests.DeleteUserAddressTest -->
     </test> <!-- Delete Address APIs -->
-    <test started-at="2026-06-30T07:08:37 IST" name="Get Categories List APIs" finished-at="2026-06-30T07:08:38 IST" duration-ms="1275">
+    <test started-at="2026-06-30T07:19:18 IST" name="Get Categories List APIs" finished-at="2026-06-30T07:19:19 IST" duration-ms="1394">
       <class name="Tests.GetCategoriesListTest">
-        <test-method signature="getCategoriesList()[pri:9, instance:Tests.GetCategoriesListTest@3f197a46]" started-at="2026-06-30T07:08:37 IST" name="getCategoriesList" finished-at="2026-06-30T07:08:38 IST" duration-ms="1273" status="PASS">
+        <test-method signature="getCategoriesList()[pri:9, instance:Tests.GetCategoriesListTest@3f197a46]" started-at="2026-06-30T07:19:18 IST" name="getCategoriesList" finished-at="2026-06-30T07:19:19 IST" duration-ms="1393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getCategoriesList -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.GetCategoriesListTest@3f197a46]" started-at="2026-06-30T07:08:37 IST" name="setup" finished-at="2026-06-30T07:08:37 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.GetCategoriesListTest@3f197a46]" started-at="2026-06-30T07:19:18 IST" name="setup" finished-at="2026-06-30T07:19:18 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
       </class> <!-- Tests.GetCategoriesListTest -->
     </test> <!-- Get Categories List APIs -->
-    <test started-at="2026-06-30T07:08:38 IST" name="Get SubCategories List APIs" finished-at="2026-06-30T07:08:42 IST" duration-ms="4081">
+    <test started-at="2026-06-30T07:19:19 IST" name="Get SubCategories List APIs" finished-at="2026-06-30T07:19:23 IST" duration-ms="4082">
       <class name="Tests.GetSubCategoriesListTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.GetSubCategoriesListTest@50b472aa]" started-at="2026-06-30T07:08:38 IST" name="setup" finished-at="2026-06-30T07:08:38 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.GetSubCategoriesListTest@50b472aa]" started-at="2026-06-30T07:19:19 IST" name="setup" finished-at="2026-06-30T07:19:19 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="GetSubCategoriesList()[pri:10, instance:Tests.GetSubCategoriesListTest@50b472aa]" started-at="2026-06-30T07:08:38 IST" name="GetSubCategoriesList" finished-at="2026-06-30T07:08:42 IST" duration-ms="4079" status="PASS">
+        <test-method signature="GetSubCategoriesList()[pri:10, instance:Tests.GetSubCategoriesListTest@50b472aa]" started-at="2026-06-30T07:19:19 IST" name="GetSubCategoriesList" finished-at="2026-06-30T07:19:23 IST" duration-ms="4080" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetSubCategoriesList -->
       </class> <!-- Tests.GetSubCategoriesListTest -->
     </test> <!-- Get SubCategories List APIs -->
-    <test started-at="2026-06-30T07:08:42 IST" name="Get Special offers List APIs" finished-at="2026-06-30T07:08:47 IST" duration-ms="5452">
+    <test started-at="2026-06-30T07:19:23 IST" name="Get Special offers List APIs" finished-at="2026-06-30T07:19:28 IST" duration-ms="5093">
       <class name="Tests.GetSpecialOfferListTest">
-        <test-method signature="getSpecialOfferList()[pri:11, instance:Tests.GetSpecialOfferListTest@15c43bd9]" started-at="2026-06-30T07:08:42 IST" name="getSpecialOfferList" finished-at="2026-06-30T07:08:43 IST" duration-ms="1360" status="PASS">
+        <test-method signature="getSpecialOfferList()[pri:11, instance:Tests.GetSpecialOfferListTest@15c43bd9]" started-at="2026-06-30T07:19:23 IST" name="getSpecialOfferList" finished-at="2026-06-30T07:19:24 IST" duration-ms="1149" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSpecialOfferList -->
-        <test-method signature="validateItemsResponse()[pri:12, instance:Tests.GetSpecialOfferListTest@15c43bd9]" started-at="2026-06-30T07:08:43 IST" name="validateItemsResponse" finished-at="2026-06-30T07:08:45 IST" duration-ms="1518" status="PASS">
+        <test-method signature="validateItemsResponse()[pri:12, instance:Tests.GetSpecialOfferListTest@15c43bd9]" started-at="2026-06-30T07:19:24 IST" name="validateItemsResponse" finished-at="2026-06-30T07:19:26 IST" duration-ms="1329" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateItemsResponse -->
-        <test-method signature="validateFirstItemDetails()[pri:13, instance:Tests.GetSpecialOfferListTest@15c43bd9]" started-at="2026-06-30T07:08:45 IST" name="validateFirstItemDetails" finished-at="2026-06-30T07:08:46 IST" duration-ms="1374" status="PASS">
+        <test-method signature="validateFirstItemDetails()[pri:13, instance:Tests.GetSpecialOfferListTest@15c43bd9]" started-at="2026-06-30T07:19:26 IST" name="validateFirstItemDetails" finished-at="2026-06-30T07:19:27 IST" duration-ms="1290" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateFirstItemDetails -->
-        <test-method signature="validateMandatoryFieldsForAllItems()[pri:14, instance:Tests.GetSpecialOfferListTest@15c43bd9]" started-at="2026-06-30T07:08:46 IST" name="validateMandatoryFieldsForAllItems" finished-at="2026-06-30T07:08:47 IST" duration-ms="1191" status="PASS">
+        <test-method signature="validateMandatoryFieldsForAllItems()[pri:14, instance:Tests.GetSpecialOfferListTest@15c43bd9]" started-at="2026-06-30T07:19:27 IST" name="validateMandatoryFieldsForAllItems" finished-at="2026-06-30T07:19:28 IST" duration-ms="1321" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateMandatoryFieldsForAllItems -->
