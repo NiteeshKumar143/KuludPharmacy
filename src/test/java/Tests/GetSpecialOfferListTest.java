@@ -85,8 +85,9 @@ public void validateMandatoryFieldsForAllItems() {
         Assert.assertNotNull(item.get("priceAfterDiscount"));
         Assert.assertNotNull(item.get("brandNameEn"));
         Assert.assertNotNull(item.get("itemId"));
-        System.out.println("Test Pass-: Mandatory fields validated for item with ID: " + item.get("id"));
+       
     }
+     System.out.println("Test Pass-: Mandatory fields validated for item with ID: " + item.get("id"));
 }
     
 }
