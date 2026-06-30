@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="27.801" tests="11" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="27.842" tests="14" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -8,13 +8,12 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://ubuntu.com/"/>
     <property name="user.timezone" value="Asia/Kolkata"/>
-    <property name="suiteXmlFile" value="testng.xml"/>
     <property name="os.name" value="Linux"/>
     <property name="java.vm.specification.version" value="21"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-21-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/user/Documents/KuludPharmacy/kuludpharmacy/target/surefire/surefirebooter-20260628092526839_3.jar /home/user/Documents/KuludPharmacy/kuludpharmacy/target/surefire 2026-06-28T09-25-26_668-jvmRun1 surefire-20260628092526839_1tmp surefire_0-20260628092526839_2tmp"/>
+    <property name="sun.java.command" value="/home/user/Documents/KuludPharmacy/kuludpharmacy/target/surefire/surefirebooter-20260630070819816_3.jar /home/user/Documents/KuludPharmacy/kuludpharmacy/target/surefire 2026-06-30T07-08-19_710-jvmRun1 surefire-20260630070819816_1tmp surefire_0-20260630070819816_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/user/Documents/KuludPharmacy/kuludpharmacy/target/test-classes:/home/user/Documents/KuludPharmacy/kuludpharmacy/target/classes:/home/user/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/home/user/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/home/user/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/home/user/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/user/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/home/user/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/user/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/home/user/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/home/user/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/user/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/home/user/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/home/user/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/home/user/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/home/user/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/home/user/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/home/user/.m2/repository/io/rest-assured/json-schema-validator/5.4.0/json-schema-validator-5.4.0.jar:/home/user/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/home/user/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/home/user/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/home/user/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/home/user/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/home/user/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/home/user/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/home/user/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/home/user/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/home/user/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/home/user/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/home/user/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/user/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/user/.m2/repository/com/google/guava/guava/32.0.1-jre/guava-32.0.1-jre.jar:/home/user/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/user/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/user/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/home/user/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/home/user/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/home/user/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/home/user/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/user/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/home/user/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/home/user/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.16.1/jackson-databind-2.16.1.jar:/home/user/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.16.1/jackson-annotations-2.16.1.jar:/home/user/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.16.1/jackson-core-2.16.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -29,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/user/Documents/KuludPharmacy/kuludpharmacy/target/surefire/surefirebooter-20260628092526839_3.jar"/>
+    <property name="surefire.real.class.path" value="/home/user/Documents/KuludPharmacy/kuludpharmacy/target/surefire/surefirebooter-20260630070819816_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.11+10-1-24.04.2-Ubuntu"/>
     <property name="user.name" value="user"/>
@@ -55,7 +54,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="getUserProfileVerifySuccessfulResponse" classname="Tests.GetUserProfileTest" time="1.546">
+  <testcase name="getUserProfileVerifySuccessfulResponse" classname="Tests.GetUserProfileTest" time="1.273">
     <system-out><![CDATA[🔄 Token expired. Regenerating...
 Test Pass-: Get Success response with valid Headers
 ]]></system-out>
@@ -64,47 +63,605 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="getUserProfileValidateResponseSchema" classname="Tests.GetUserProfileTest" time="1.658">
+  <testcase name="getUserProfileValidateResponseSchema" classname="Tests.GetUserProfileTest" time="1.595">
     <system-out><![CDATA[Test Pass-: Response schema is Correct
 ]]></system-out>
   </testcase>
-  <testcase name="getUserProfileValidateEmailFormat" classname="Tests.GetUserProfileTest" time="1.47">
+  <testcase name="getUserProfileValidateEmailFormat" classname="Tests.GetUserProfileTest" time="1.156">
     <system-out><![CDATA[Test Pass-: Email having Correct Format
 ]]></system-out>
   </testcase>
-  <testcase name="getUserProfileValidatePhoneNumberFormat" classname="Tests.GetUserProfileTest" time="1.418">
+  <testcase name="getUserProfileValidatePhoneNumberFormat" classname="Tests.GetUserProfileTest" time="1.364">
     <system-out><![CDATA[Test Pass-: Phone Number is in Correct format and having valid country Code
 ]]></system-out>
   </testcase>
-  <testcase name="getUserProfileValidateEnumValues" classname="Tests.GetUserProfileTest" time="1.74">
+  <testcase name="getUserProfileValidateEnumValues" classname="Tests.GetUserProfileTest" time="1.222">
     <system-out><![CDATA[Test Pass-: Enum fields having correct values
 ]]></system-out>
   </testcase>
-  <testcase name="AddAddressTest" classname="Tests.AddUserAddressTest" time="1.399">
+  <testcase name="AddAddressTest" classname="Tests.AddUserAddressTest" time="1.293">
     <system-out><![CDATA[Test Pass-: New Address added sucessfully
 ]]></system-out>
   </testcase>
-  <testcase name="getUserAddressList" classname="Tests.GetUserAddressTest" time="1.452">
+  <testcase name="getUserAddressList" classname="Tests.GetUserAddressTest" time="1.224">
     <system-out><![CDATA[Test Pass-: User Address List fetched successfully
 ]]></system-out>
   </testcase>
-  <testcase name="DeleteUserAddressById" classname="Tests.DeleteUserAddressTest" time="2.586">
-    <system-out><![CDATA[Id 574
-Test Pass-: Address 574 deleted sucessfully
+  <testcase name="DeleteUserAddressById" classname="Tests.DeleteUserAddressTest" time="2.655">
+    <system-out><![CDATA[Id 578
+Test Pass-: Address 578 deleted sucessfully
 ]]></system-out>
   </testcase>
-  <testcase name="getCategoriesList" classname="Tests.GetCategoriesListTest" time="1.331">
+  <testcase name="getCategoriesList" classname="Tests.GetCategoriesListTest" time="1.274">
     <system-out><![CDATA[Test Pass-: Categories List fetched successfully
 ]]></system-out>
   </testcase>
-  <testcase name="GetSubCategoriesList" classname="Tests.GetSubCategoriesListTest" time="4.193">
+  <testcase name="GetSubCategoriesList" classname="Tests.GetSubCategoriesListTest" time="4.079">
     <system-out><![CDATA[Category Name-:  Vitamin & Supplements
 List of Sub categories belongs to-:  Vitamin & Supplements
 Test Pass-: Sub Categories List fetched successfully
 ]]></system-out>
   </testcase>
-  <testcase name="getSpecialOfferList" classname="Tests.GetSpecialOfferListTest" time="1.8">
+  <testcase name="getSpecialOfferList" classname="Tests.GetSpecialOfferListTest" time="1.369">
     <system-out><![CDATA[Test Pass-: Special Offers List fetched successfully
+{
+    "statusCode": 200,
+    "message": "en, en.DEFAULT",
+    "data": {
+        "items": [
+            {
+                "id": "58",
+                "nameEn": "Talya Hair Care Hair Oil",
+                "namear": "زيت الشعر تاليا للعناية بالشعر",
+                "price": "10.00",
+                "discount": "50.00",
+                "priceAfterDiscount": "5.00",
+                "promotionType": null,
+                "displayOrder": 5,
+                "images": [
+                    
+                ],
+                "brandNameEn": "Dr. Browns",
+                "brandNameAr": "دكتور براونز",
+                "brandId": "26",
+                "isForce2Hr": false,
+                "metric": "80",
+                "metricUnit": "mL",
+                "bannerImage": {
+                    "type": "image",
+                    "imageId": null,
+                    "mediaUrl": "logo/1762317018618_Talya_Hair_Care_Hair_Oil.jpeg",
+                    "mediaName": "1762317018618_Talya_Hair_Care_Hair_Oil.jpeg"
+                },
+                "SKU": "383830",
+                "inCart": true,
+                "cartQuantity": 1,
+                "ratingAverage": "3.00",
+                "itemId": "IT1762317022819",
+                "isPOM": false,
+                "is3rdParty": false,
+                "maxLimitPerItem": 10,
+                "imcWeight": "28.85",
+                "salesFrequency30": "0",
+                "priority": 1
+            },
+            {
+                "id": "150",
+                "nameEn": "Eucerin Hyaluron Filler Vitamin C Boost Serum",
+                "namear": "يوسيرين سيروم فيتامين سى",
+                "price": "79.08",
+                "discount": "30.00",
+                "priceAfterDiscount": "55.36",
+                "promotionType": null,
+                "displayOrder": 1048,
+                "images": [
+                    
+                ],
+                "brandNameEn": "EUCERIN",
+                "brandNameAr": "يوسيرين",
+                "brandId": "10",
+                "isForce2Hr": false,
+                "metric": "7.5",
+                "metricUnit": "mL",
+                "bannerImage": {
+                    "id": "273",
+                    "type": "IMAGE",
+                    "status": "ACTIVE",
+                    "mediaId": "MD17682958808900",
+                    "mediaUrl": "library/nobrand.jpg",
+                    "createdAt": "2026-01-13T09:18:00.892Z",
+                    "createdBy": "29",
+                    "deletedBy": null,
+                    "mediaName": "nobrand.jpg",
+                    "updatedAt": "2026-01-13T09:18:00.892Z",
+                    "updatedBy": null
+                },
+                "SKU": "58692",
+                "inCart": false,
+                "cartQuantity": 0,
+                "ratingAverage": "5.00",
+                "itemId": "IT564747ADB0DC0",
+                "isPOM": false,
+                "is3rdParty": false,
+                "maxLimitPerItem": 15,
+                "imcWeight": "13.69",
+                "salesFrequency30": "0",
+                "priority": 1
+            },
+            {
+                "id": "65",
+                "nameEn": "Aloe Vera Body Lotion",
+                "namear": "لوشن الجسم بالألوفيرا",
+                "price": "100.00",
+                "discount": "0.00",
+                "priceAfterDiscount": "100.00",
+                "promotionType": "B3_G1",
+                "displayOrder": 67,
+                "images": [
+                    {
+                        "type": "image",
+                        "imageId": null,
+                        "mediaUrl": "logo/1762401579332_Aloe_Vera_Body_Lotion.jpg",
+                        "mediaName": "1762401579332_Aloe_Vera_Body_Lotion.jpg",
+                        "uploadType": "ITEM"
+                    }
+                ],
+                "brandNameEn": "NOVALAC",
+                "brandNameAr": "نوفالاك",
+                "brandId": "17",
+                "isForce2Hr": false,
+                "metric": "200",
+                "metricUnit": "mL",
+                "bannerImage": {
+                    "type": "image",
+                    "imageId": null,
+                    "mediaUrl": "logo/1762401579332_Aloe_Vera_Body_Lotion.jpg",
+                    "mediaName": "1762401579332_Aloe_Vera_Body_Lotion.jpg"
+                },
+                "SKU": "36772",
+                "inCart": false,
+                "cartQuantity": 0,
+                "ratingAverage": "4.00",
+                "itemId": "IT1762401583638",
+                "isPOM": false,
+                "is3rdParty": false,
+                "maxLimitPerItem": 15,
+                "imcWeight": "13.26",
+                "salesFrequency30": "0",
+                "priority": 1
+            },
+            {
+                "id": "41",
+                "nameEn": "Vitamin B12",
+                "namear": "فيتامين ب12",
+                "price": "100.00",
+                "discount": "0.00",
+                "priceAfterDiscount": "100.00",
+                "promotionType": "B3_G1",
+                "displayOrder": 129,
+                "images": [
+                    {
+                        "type": "image",
+                        "imageId": null,
+                        "mediaUrl": "logo/1761636055456_21427.jpg",
+                        "mediaName": "1761636055456_21427.jpg",
+                        "uploadType": "ITEM"
+                    }
+                ],
+                "brandNameEn": "LIERAC",
+                "brandNameAr": "ليراك",
+                "brandId": "16",
+                "isForce2Hr": false,
+                "metric": "2",
+                "metricUnit": "Dose",
+                "bannerImage": {
+                    "type": "image",
+                    "imageId": null,
+                    "mediaUrl": "logo/1761636055455_21427.jpg",
+                    "mediaName": "1761636055455_21427.jpg"
+                },
+                "SKU": "11003",
+                "inCart": false,
+                "cartQuantity": 0,
+                "ratingAverage": null,
+                "itemId": "IT1761636059334",
+                "isPOM": false,
+                "is3rdParty": false,
+                "maxLimitPerItem": 9,
+                "imcWeight": "11.67",
+                "salesFrequency30": "0",
+                "priority": 1
+            },
+            {
+                "id": "151",
+                "nameEn": "Eucerin Hyaluron Filler + Elasticity Night Cream",
+                "namear": "يوسيرين  كريم ليلي مضاد للتجاعيد",
+                "price": "124.00",
+                "discount": "30.00",
+                "priceAfterDiscount": "86.80",
+                "promotionType": null,
+                "displayOrder": 1067,
+                "images": [
+                    
+                ],
+                "brandNameEn": "EUCERIN",
+                "brandNameAr": "يوسيرين",
+                "brandId": "10",
+                "isForce2Hr": false,
+                "metric": "45",
+                "metricUnit": "mL",
+                "bannerImage": {
+                    "id": "273",
+                    "type": "IMAGE",
+                    "status": "ACTIVE",
+                    "mediaId": "MD17682958808900",
+                    "mediaUrl": "library/nobrand.jpg",
+                    "createdAt": "2026-01-13T09:18:00.892Z",
+                    "createdBy": "29",
+                    "deletedBy": null,
+                    "mediaName": "nobrand.jpg",
+                    "updatedAt": "2026-01-13T09:18:00.892Z",
+                    "updatedBy": null
+                },
+                "SKU": "55203",
+                "inCart": false,
+                "cartQuantity": 0,
+                "ratingAverage": null,
+                "itemId": "IT19454795BFC7A",
+                "isPOM": false,
+                "is3rdParty": false,
+                "maxLimitPerItem": 15,
+                "imcWeight": "8.21",
+                "salesFrequency30": "0",
+                "priority": 1
+            },
+            {
+                "id": "68",
+                "nameEn": "Hair Oil",
+                "namear": "زيت الشعر",
+                "price": "5600.39",
+                "discount": "50.00",
+                "priceAfterDiscount": "2800.20",
+                "promotionType": "",
+                "displayOrder": 9,
+                "images": [
+                    {
+                        "type": "video",
+                        "imageId": null,
+                        "mediaUrl": "logo/1767706612590_file_example_MP4_480_1_5MG.mp4",
+                        "mediaName": "1767706612590_file_example_MP4_480_1_5MG.mp4",
+                        "uploadType": "ITEM"
+                    },
+                    {
+                        "type": "IMAGE",
+                        "imageId": "267",
+                        "mediaUrl": "library/8tcpldox.jpg",
+                        "mediaName": "21254.jpg",
+                        "uploadType": "ITEM"
+                    },
+                    {
+                        "type": "IMAGE",
+                        "imageId": "265",
+                        "mediaUrl": "library/zejbe0w4.jpg",
+                        "mediaName": "27138.jpg",
+                        "uploadType": "ITEM"
+                    },
+                    {
+                        "type": "IMAGE",
+                        "imageId": "264",
+                        "mediaUrl": "library/j9qyur8e.png",
+                        "mediaName": "Specialty Supplements.png",
+                        "uploadType": "ITEM"
+                    },
+                    {
+                        "type": "IMAGE",
+                        "imageId": "182",
+                        "mediaUrl": "library/twb6jy0f.jpg",
+                        "mediaName": "fracture.jpg",
+                        "uploadType": "ITEM"
+                    },
+                    {
+                        "type": "IMAGE",
+                        "imageId": "185",
+                        "mediaUrl": "library/dfyaozdh.png",
+                        "mediaName": "Pregnancy Test.png",
+                        "uploadType": "ITEM"
+                    },
+                    {
+                        "type": "IMAGE",
+                        "imageId": "215",
+                        "mediaUrl": "library/wzckrd1v.png",
+                        "mediaName": "Other Medications.png",
+                        "uploadType": "ITEM"
+                    }
+                ],
+                "brandNameEn": "APPLIED NUTRITION",
+                "brandNameAr": "التغذية التطبيقية",
+                "brandId": "6",
+                "isForce2Hr": true,
+                "metric": "250",
+                "metricUnit": "mL",
+                "bannerImage": {
+                    "type": "image",
+                    "imageId": null,
+                    "mediaUrl": "logo/1767691297822_hair_oilcc.jpg",
+                    "mediaName": "1767691297822_hair_oilcc.jpg"
+                },
+                "SKU": "99390",
+                "inCart": false,
+                "cartQuantity": 0,
+                "ratingAverage": "4.33",
+                "itemId": "IT1762403581028",
+                "isPOM": true,
+                "is3rdParty": true,
+                "maxLimitPerItem": 15,
+                "imcWeight": "7.89",
+                "salesFrequency30": "0",
+                "priority": 1
+            },
+            {
+                "id": "66",
+                "nameEn": "Sunscreen SPF 50",
+                "namear": "واقي شمس بمعامل حماية 50",
+                "price": "200.00",
+                "discount": "50.00",
+                "priceAfterDiscount": "100.00",
+                "promotionType": "",
+                "displayOrder": 69,
+                "images": [
+                    {
+                        "type": "image",
+                        "imageId": null,
+                        "mediaUrl": "logo/1762402160400_suncreamspf.jpg",
+                        "mediaName": "1762402160400_suncreamspf.jpg",
+                        "uploadType": "ITEM"
+                    }
+                ],
+                "brandNameEn": "NOVALAC",
+                "brandNameAr": "نوفالاك",
+                "brandId": "17",
+                "isForce2Hr": false,
+                "metric": "300",
+                "metricUnit": "mL",
+                "bannerImage": {
+                    "type": "image",
+                    "imageId": null,
+                    "mediaUrl": "logo/1762402160399_suncreamspf.jpg",
+                    "mediaName": "1762402160399_suncreamspf.jpg"
+                },
+                "SKU": "388380",
+                "inCart": false,
+                "cartQuantity": 0,
+                "ratingAverage": "3.00",
+                "itemId": "IT1762402165018",
+                "isPOM": false,
+                "is3rdParty": false,
+                "maxLimitPerItem": 15,
+                "imcWeight": "6.46",
+                "salesFrequency30": "0",
+                "priority": 1
+            },
+            {
+                "id": "57",
+                "nameEn": "Summer Hair Care Kit",
+                "namear": "مجموعة العناية بالشعر في الصيف",
+                "price": "3990.00",
+                "discount": "0.00",
+                "priceAfterDiscount": "3990.00",
+                "promotionType": "B1_G1",
+                "displayOrder": 19,
+                "images": [
+                    {
+                        "type": "image",
+                        "imageId": null,
+                        "mediaUrl": "logo/1762316779622_Summer_Hair_Care_Kit.jpeg",
+                        "mediaName": "1762316779622_Summer_Hair_Care_Kit.jpeg",
+                        "uploadType": "ITEM"
+                    }
+                ],
+                "brandNameEn": "Dr. Browns",
+                "brandNameAr": "دكتور براونز",
+                "brandId": "26",
+                "isForce2Hr": false,
+                "metric": "1",
+                "metricUnit": "Box",
+                "bannerImage": {
+                    "type": "image",
+                    "imageId": null,
+                    "mediaUrl": "logo/1762316779622_Summer_Hair_Care_Kit.jpeg",
+                    "mediaName": "1762316779622_Summer_Hair_Care_Kit.jpeg"
+                },
+                "SKU": "38833",
+                "inCart": false,
+                "cartQuantity": 0,
+                "ratingAverage": null,
+                "itemId": "IT1762316783502",
+                "isPOM": false,
+                "is3rdParty": false,
+                "maxLimitPerItem": 15,
+                "imcWeight": "6.24",
+                "salesFrequency30": "0",
+                "priority": 1
+            },
+            {
+                "id": "67",
+                "nameEn": "Hair Serum",
+                "namear": "سيروم الشعر",
+                "price": "55.00",
+                "discount": "0.00",
+                "priceAfterDiscount": "55.00",
+                "promotionType": null,
+                "displayOrder": 19,
+                "images": [
+                    {
+                        "type": "image",
+                        "imageId": null,
+                        "mediaUrl": "logo/1762402775795_hair_serum.jpg",
+                        "mediaName": "1762402775795_hair_serum.jpg",
+                        "uploadType": "ITEM"
+                    },
+                    {
+                        "type": "IMAGE",
+                        "imageId": "269",
+                        "mediaUrl": "library/32381_7182.jpg.png",
+                        "mediaName": "32381_7182.jpg.png",
+                        "uploadType": "ITEM"
+                    },
+                    {
+                        "type": "IMAGE",
+                        "imageId": "268",
+                        "mediaUrl": "library/0yjcdfg1.jpg",
+                        "mediaName": "35889.jpg",
+                        "uploadType": "ITEM"
+                    },
+                    {
+                        "type": "IMAGE",
+                        "imageId": "267",
+                        "mediaUrl": "library/8tcpldox.jpg",
+                        "mediaName": "21254.jpg",
+                        "uploadType": "ITEM"
+                    },
+                    {
+                        "type": "IMAGE",
+                        "imageId": "265",
+                        "mediaUrl": "library/zejbe0w4.jpg",
+                        "mediaName": "27138.jpg",
+                        "uploadType": "ITEM"
+                    },
+                    {
+                        "type": "IMAGE",
+                        "imageId": "266",
+                        "mediaUrl": "library/adkono9o.jpg",
+                        "mediaName": "23367.jpg",
+                        "uploadType": "ITEM"
+                    },
+                    {
+                        "type": "IMAGE",
+                        "imageId": "264",
+                        "mediaUrl": "library/j9qyur8e.png",
+                        "mediaName": "Specialty Supplements.png",
+                        "uploadType": "ITEM"
+                    },
+                    {
+                        "type": "IMAGE",
+                        "imageId": "182",
+                        "mediaUrl": "library/twb6jy0f.jpg",
+                        "mediaName": "fracture.jpg",
+                        "uploadType": "ITEM"
+                    },
+                    {
+                        "type": "IMAGE",
+                        "imageId": "185",
+                        "mediaUrl": "library/dfyaozdh.png",
+                        "mediaName": "Pregnancy Test.png",
+                        "uploadType": "ITEM"
+                    },
+                    {
+                        "type": "IMAGE",
+                        "imageId": "215",
+                        "mediaUrl": "library/wzckrd1v.png",
+                        "mediaName": "Other Medications.png",
+                        "uploadType": "ITEM"
+                    }
+                ],
+                "brandNameEn": "Dr. Browns",
+                "brandNameAr": "دكتور براونز",
+                "brandId": "26",
+                "isForce2Hr": false,
+                "metric": "200",
+                "metricUnit": "mL",
+                "bannerImage": {
+                    "type": "image",
+                    "imageId": null,
+                    "mediaUrl": "logo/1762402775795_hair_serum.jpg",
+                    "mediaName": "1762402775795_hair_serum.jpg"
+                },
+                "SKU": "92929",
+                "inCart": false,
+                "cartQuantity": 0,
+                "ratingAverage": null,
+                "itemId": "IT1762402780830",
+                "isPOM": false,
+                "is3rdParty": false,
+                "maxLimitPerItem": 15,
+                "imcWeight": "5.24",
+                "salesFrequency30": "0",
+                "priority": 1
+            },
+            {
+                "id": "143",
+                "nameEn": "Eucerin Ph5 Wash Lotion 400Ml",
+                "namear": "يوسيرين اللوشن المنظف للبشره الحساسه",
+                "price": "89.00",
+                "discount": "0.00",
+                "priceAfterDiscount": "89.00",
+                "promotionType": null,
+                "displayOrder": 1109,
+                "images": [
+                    
+                ],
+                "brandNameEn": "EUCERIN",
+                "brandNameAr": "يوسيرين",
+                "brandId": "10",
+                "isForce2Hr": false,
+                "metric": "50",
+                "metricUnit": "mL",
+                "bannerImage": {
+                    "id": "273",
+                    "type": "IMAGE",
+                    "status": "ACTIVE",
+                    "mediaId": "MD17682958808900",
+                    "mediaUrl": "library/nobrand.jpg",
+                    "createdAt": "2026-01-13T09:18:00.892Z",
+                    "createdBy": "29",
+                    "deletedBy": null,
+                    "mediaName": "nobrand.jpg",
+                    "updatedAt": "2026-01-13T09:18:00.892Z",
+                    "updatedBy": null
+                },
+                "SKU": "43831",
+                "inCart": false,
+                "cartQuantity": 0,
+                "ratingAverage": "0.00",
+                "itemId": "ITFC29434DA5D1E",
+                "isPOM": false,
+                "is3rdParty": false,
+                "maxLimitPerItem": 15,
+                "imcWeight": "4.78",
+                "salesFrequency30": "0",
+                "priority": 1
+            }
+        ],
+        "meta": {
+            "totalItems": 124,
+            "itemCount": 10,
+            "itemsPerPage": 10,
+            "totalPages": 13,
+            "currentPage": 1
+        }
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="validateItemsResponse" classname="Tests.GetSpecialOfferListTest" time="1.514">
+    <system-out><![CDATA[Test Pass-: Meta data validated successfully
+]]></system-out>
+  </testcase>
+  <testcase name="validateFirstItemDetails" classname="Tests.GetSpecialOfferListTest" time="1.375">
+    <system-out><![CDATA[Test Pass-: First item details validated successfully
+]]></system-out>
+  </testcase>
+  <testcase name="validateMandatoryFieldsForAllItems" classname="Tests.GetSpecialOfferListTest" time="1.194">
+    <system-out><![CDATA[Test Pass-: Mandatory fields validated for item with ID: 58
+Test Pass-: Mandatory fields validated for item with ID: 150
+Test Pass-: Mandatory fields validated for item with ID: 65
+Test Pass-: Mandatory fields validated for item with ID: 41
+Test Pass-: Mandatory fields validated for item with ID: 151
+Test Pass-: Mandatory fields validated for item with ID: 68
+Test Pass-: Mandatory fields validated for item with ID: 66
+Test Pass-: Mandatory fields validated for item with ID: 57
+Test Pass-: Mandatory fields validated for item with ID: 67
+Test Pass-: Mandatory fields validated for item with ID: 143
 ]]></system-out>
   </testcase>
 </testsuite>
