@@ -1,12 +1,9 @@
 package Tests;
-
-
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
 import java.util.List;
 import java.util.Map;
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import Apis.SpecialOfferApi;
@@ -51,8 +48,6 @@ public class GetSpecialOfferListTest {
     System.out.println("Test Pass-: Meta data validated successfully");
 }
 
-
-
 @Test(priority = 13)
 public void validateFirstItemDetails() {
 
@@ -72,7 +67,8 @@ public void validateFirstItemDetails() {
 }
 
 @Test(priority = 14)
-public void validateMandatoryFieldsForAllItems() {
+public void validateMandatoryFieldsForAllItems() 
+{
 
      Response response = SpecialOfferApi.GetSpecialOffersList();
 

@@ -3,7 +3,7 @@ package Auth;
 
 public class TokenManager {
 
-     private static ThreadLocal<String> token = new ThreadLocal<>();
+    private static ThreadLocal<String> token = new ThreadLocal<>();
     private static ThreadLocal<Long> expiryTime = new ThreadLocal<>();
 
     public static void setToken(String t, long expiresInSeconds) {
