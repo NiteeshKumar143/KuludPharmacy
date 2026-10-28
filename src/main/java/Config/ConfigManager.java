@@ -18,7 +18,7 @@ public class ConfigManager {
             throw new RuntimeException("Failed to load config file");
         }
     }
-     public static String get(String key) 
+     public static String get(String key)  
      {
         return properties.getProperty(key);
      }
