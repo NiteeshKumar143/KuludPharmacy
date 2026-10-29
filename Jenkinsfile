@@ -2,6 +2,10 @@
 pipeline {
     agent any
 
+    triggers {
+        cron('H 19 * * *')
+    }
+
     stages {
         stage('Checkout') {
             steps {
@@ -9,7 +13,7 @@ pipeline {
             }
         }
 
-        stage('Verify Environment') {
+        stage('Check Java and Maven') {
             steps {
                 sh 'java -version'
                 sh 'mvn -version'
@@ -25,12 +29,16 @@ pipeline {
 
     post {
         always {
-            junit 'target/surefire-reports/TEST-*.xml'
+            junit allowEmptyResults: true,
+                  testResults: 'target/surefire-reports/TEST-*.xml'
+        }
 
-            archiveArtifacts(
-                artifacts: 'target/surefire-reports/**',
-                allowEmptyArchive: true
-            )
+        success {
+            echo 'API tests completed successfully.'
+        }
+
+        failure {
+            echo 'API tests or the build failed. Check Console Output.'
         }
     }
 }
